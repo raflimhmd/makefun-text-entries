@@ -2,8 +2,8 @@
 // Text and length cap are per-bounty; each bounty's entry is its own commit.
 import { mkdirSync, writeFileSync } from 'node:fs';
 
-const TEXT = 'Bottleneck';
-const MAX = 30;
+const TEXT = 'I unmuted myself to sigh, and the whole call learned something about me.';
+const MAX = 200;
 
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 const body = TEXT.trim();
